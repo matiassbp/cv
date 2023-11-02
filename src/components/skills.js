@@ -2,7 +2,9 @@ import React from 'react'
 
 const skills = () => {
   return (
-    <div>skills</div>
+    <section className="landing6">
+      <div>Habilidades</div>
+    </section>
   )
 }
 

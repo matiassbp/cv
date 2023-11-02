@@ -2,7 +2,9 @@ import React from 'react'
 
 const workExperience = () => {
   return (
-    <div>workExperience</div>
+    <section className="landing5">
+      <div>Experiencia Laboral</div>
+    </section>
   )
 }
 

@@ -2,7 +2,9 @@ import React from 'react'
 
 const infoAcademy = () => {
   return (
-    <div>infoAcademy</div>
+    <section className="landing4">
+      <div>Información Academica</div>
+    </section>
   )
 }
 

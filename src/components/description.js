@@ -2,7 +2,9 @@ import React from 'react'
 
 const description = () => {
   return (
-    <div>description</div>
+    <section className="landing2">
+      <div>Descripción</div>
+    </section>
   )
 }
 

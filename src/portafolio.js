@@ -11,10 +11,7 @@ const portafolio = () => {
     <div>
         <Intro/>
         <Description/>
-        <InfoAcademy/>
-        <WorkExperience/>
-        <Skills/>
-        <Contact/>
+        
     </div>
   )
 }
