@@ -1,0 +1,53 @@
+.landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.intro-container {
+  text-align: center;
+  margin-left: 10vh;
+}
+
+.intro-content {
+  display: flex;
+  align-items: center;
+}
+
+.intro-text {
+  margin-left: 50px; /* Espacio entre la imagen y el texto */
+  text-align: left;
+  font-size: 30px;
+  width: 650px;
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  text-transform: uppercase;
+}
+
+.middle-blue-font{
+  color: #1effff;
+}
+
+
+
+.cursor-container {
+  display: inline-block;
+  width: 10px;
+  height: 1.2em;
+}
+
+.cursor {
+  animation: cursorBlink 0.7s infinite;
+}
+
+
+
+/* Estilos para pantallas más pequeñas (ejemplo: teléfonos) */
+@media (max-width: 768px) {
+  .intro-text {
+    margin-left: 0; /* Elimina el margen a pantallas más pequeñas */
+  }
+}
+
+/* Añade más Media Queries según sea necesario para otros tamaños de pantalla */
