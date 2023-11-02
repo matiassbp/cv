@@ -25,6 +25,135 @@
   text-transform: uppercase;
 }
 
+.intro-text2 {
+  text-align: left;
+  font-size: 30px;
+  width: 90%;
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  text-transform: uppercase;
+  line-height: 1.5;
+  
+}
+
+.intro-text3 {
+  text-align: left;
+  font-size: 40px;
+  width: 90%;
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: center;
+  margin: 100px;
+  margin-bottom: 150px;
+}
+
+.lineatiempo{
+  margin-bottom: 12%;
+}
+
+.description-container {
+  padding: 20px;
+  margin-left: 10%;
+}	
+
+
+
+
+ol {
+	position: relative;
+	display: block;
+	margin: 100px;
+	height: 4px;
+	background: #fff;
+}
+ol::before,
+ol::after {
+	content: "";
+	position: absolute;
+	top: -8px;
+	display: block;
+	width: 0;
+	height: 0;
+  border-radius: 10px;
+	border: 10px solid #fff;
+}
+ol::before {
+	left: -5px;
+}
+ol::after {
+	right: -10px;
+	border: 10px solid transparent;
+	border-right: 0;
+	border-left: 20px solid #fff;
+  border-radius: 3px;
+}
+
+/* ---- Timeline elements ---- */
+li {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 150px;
+	font: bold 14px arial;
+  height: 50px;
+}
+li .diplome {
+  position: absolute;
+  top: -47px;
+  left: 36%;
+  color: #3f3f3f;
+}
+li .point {
+	content: "";
+	top: -4px;
+	left: 43%;
+	display: block;
+	width: 6px;
+	height: 6px;
+	border: 4px solid #fff;
+	border-radius: 10px;
+	background: #087de3;
+  position: absolute;
+}
+li .description {
+  display: none;
+  background-color: #ffffffc0;
+  padding: 10px;
+  margin-top: 20px;
+  position: relative;
+  font-weight: normal;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.541);
+  border-radius: 5%;
+  z-index: 1;
+}
+.description::before {
+  content: '';
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #fff;
+  position: absolute;
+  
+  top: -5px;
+  left: 43%;
+}
+
+/* ---- Hover effects ---- */
+li:hover {
+	cursor: pointer;
+  color: #3f3f3f;
+}
+li:hover .description {
+  display: block;
+}
+
+
 .middle-blue-font{
   color: #1effff;
 }

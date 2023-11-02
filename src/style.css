@@ -21,6 +21,7 @@ body {
   width: 100vw;
   height: 100vh;
   background: linear-gradient( #164068, #105a98);
+  
 }
 
 .landing2 {
@@ -28,12 +29,16 @@ body {
     width: 100vw;
     height: 100vh;
     background: linear-gradient( #105a98, #0c74d4);
+    align-items: center;
+    
 }
 .landing4 {
   display: flex;
   width: 100vw;
   height: 100vh;
   background: linear-gradient( #0c74d4, #0486f1);
+  align-items: center;
+  justify-content: center;
 }
 .landing5 {
   display: flex; 
